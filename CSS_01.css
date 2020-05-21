@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+div.container {
+	width: 90%;
+	margin: auto;
+}
+
+div.menu {
+  background-color: white;
+  color: black;
+  overflow: auto;
+  white-space: nowrap;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  font-family: 'Jost', sans-serif;
+}
+
+div.menu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+div.menu a:hover {
+  color: #F39569;
+}
+.botiga {
+	background-color: #F39569;
+}
+div.menu .botiga a:hover {
+	color: white;
+}
+.nav-menu {
+	display: flex;
+	height: 55px;
+	margin-left: 70px;
+}
+body, .footer {
+    font-family: 'Halant', serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+	 font-size: 72px;
+	 font-color: black;
+}
+
+
+.button {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:visited { text-decoration: none; color:white; }
+
+div.featured {
+	display:flex;
+}
+div.featured_text {
+	display: block;
+}
+
+
+div.portfolio {
+	display: flex;
+	width: 50%;
+	padding: 55px 0px;
+}
+div.about {
+	background-color: #F39569;
+	display: flex;
+}
+.about_photo {
+	display: flex;
+	padding: 34px;
+	width: 30%;
+}
+.about_text {
+	padding: 65px 35px;
+}
+
+div.collection {
+	text-align: center;
+	padding: 55px;
+}
+
+div.collection_photos {
+	display: inline-block;
+}
+
+div.contact{
+	text-align:center;
+	width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  background-color: solid #ccc; /* background */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+.footer {
+	font-family: 'Halant', serif;
+    font-weight: 400;
+	color: white;
+	background-color: black;
+	overflow: auto;
+	white-space: nowrap;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
